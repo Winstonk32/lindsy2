@@ -21,17 +21,23 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      // max-w-6xl keeps the whole gallery block centered and compact
-      className="relative z-10 py-32 px-6 w-full max-w-6xl mx-auto flex flex-col items-center"
+      className="relative z-10 py-32 px-6 w-full max-w-5xl mx-auto flex flex-col items-center"
     >
-      <div className="mb-16">
-        <SectionTitle subtitle="the beauty in the everyday">
+      <div className="text-center mb-16">
+        <span className="text-purple-400/30 text-[9px] tracking-[0.8em] uppercase mb-4 block">
+          Visual Memories
+        </span>
+        <h2 className="text-3xl md:text-4xl font-thin italic text-purple-100 tracking-wide">
           YOU❤️
-        </SectionTitle>
+        </h2>
+        <div className="mt-4 w-8 h-px bg-purple-500/30 mx-auto" />
       </div>
 
-      {/* 3 columns on desktop, 2 on tablet, 1 on mobile */}
-     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 mt-12 w-full px-4">
+      {/* Grid refined:
+          - max-w-5xl keeps the 3 columns tighter together
+          - gap-8 for mobile, gap-14 for desktop to emphasize the smaller cards
+      */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-14 w-full justify-items-center">
         {PHOTOS.map((photo, i) => (
           <PhotoCard
             key={i}
