@@ -52,10 +52,22 @@ export default function Letter({ name }) {
             Happy Valentine's! After thinking about our friendship, I’ve concluded that you’re irreplaceable. I’m incredibly grateful for our 2 AM analysis sessions and the fact that you never tell me I’m 'overthinking it.'
           </p>
           <p>
-            I wouldn't change a single thing about you—not even the parts that make us both look slightly unhinged to outsiders.
+            I wouldn't change a single thing about you, not even the parts that make us both look slightly unhinged to outsiders.
           </p>
           <p>
             Even though you’d probably find a flaw in a diamond, I wouldn’t change a single thing about you.
+          </p>
+          <p>
+            "And this love turned to a friendship
+            </p>
+            <p>
+            A friendship turned into a bond 
+            </p>
+            <p>
+            And that bond will never be broken
+            </p>
+            <p>
+            That bond will never be lost"
           </p>
         </div>
 

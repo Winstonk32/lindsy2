@@ -26,7 +26,7 @@ export default function Gallery() {
     >
       <div className="mb-16">
         <SectionTitle subtitle="the beauty in the everyday">
-          Her Gallery
+          YOU❤️
         </SectionTitle>
       </div>
 
